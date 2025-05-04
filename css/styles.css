@@ -52,7 +52,7 @@ body {
     border: none;
     cursor: pointer;
     font-size: 1em;
-    border-radius: 5px;
+    border-radius: 20px; /* Делаем углы округлыми */
 }
 
 .dropdown-content {
@@ -63,6 +63,7 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     right: 0; /* Размещаем справа */
+    border-radius: 5px; /* Округляем углы выпадающего списка */
 }
 
 .dropdown-content a {
