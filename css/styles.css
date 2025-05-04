@@ -1,11 +1,53 @@
+/* Общие стили */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Стили для синей плашки */
 .blue-header {
-  background-color: #191970;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
+    background-color: #191970; /* Тёмно-синий */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .blue-header h1 {
-  font-size: 2em;
-  margin: 0;
+    font-size: 2.5em;  /* Большой размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    margin: 0;        /* Убираем стандартные отступы h1 */
+}
+
+/* Стили для текста */
+.main-text {
+    font-size: 1.2em;
+    line-height: 1.4;
+    width: 70%;
+}
+
+/* Стили для кнопки */
+.my-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
 }
