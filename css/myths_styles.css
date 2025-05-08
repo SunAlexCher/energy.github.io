@@ -1,0 +1,83 @@
+/* Общие стили */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Шапка */
+.header {
+    background-color: #191970;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative; /* Для позиционирования кнопки */
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Кнопка "Вернуться на главную" */
+.back-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Контент */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Контейнер для мифов */
+.myth-container {
+    display: flex;
+    flex-wrap: wrap; /* Переносим элементы на новую строку при необходимости */
+    justify-content: space-between; /* Равномерное распределение по ширине */
+}
+
+/* Элемент "Миф - Правда" */
+.myth-item {
+    width: 45%; /* Каждый элемент занимает 45% ширины контейнера */
+    margin-bottom: 20px; /* Отступ между элементами */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Размещение слева */
+.myth-item.left {
+    text-align: left;
+}
+
+/* Размещение справа */
+.myth-item.right {
+    text-align: right;
+}
+
+/* Стиль для мифа */
+.myth {
+    font-style: italic; /* Курсив для мифа */
+    font-weight: bold;  /* Жирный шрифт */
+    margin-bottom: 5px;
+}
+
+/* Стиль для правды */
+.truth {
+    font-size: 0.9em;    /* Уменьшенный размер шрифта */
+    line-height: 1.4;   /* Улучшенный интервал между строк */
+}
