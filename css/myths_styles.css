@@ -45,46 +45,44 @@ body {
 
 /* Контейнер для мифов */
 .myth-container {
-    /* display: flex; */ /* Убираем flex */
-    /* flex-wrap: wrap;   */ /* Убираем перенос */
     width: 100%;
 }
 
 /* Элемент "Миф - Правда" */
 .myth-item {
-    width: 45%; /* Каждый элемент занимает 45% ширины контейнера */
-    margin-bottom: 20px; /* Отступ между элементами */
+    width: 45%;
+    margin-bottom: 20px;
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    display: inline-block; /* Размещаем в строку, но с учетом отступов */
-    vertical-align: top;   /* Выравниваем по верхнему краю */
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* Размещение слева */
 .myth-item.left {
     text-align: left;
-    margin-right: 5%; /* Добавляем отступ справа */
+    margin-right: 5%;
 }
 
 /* Размещение справа */
 .myth-item.right {
-    text-align: left; /* Выравниваем текст по левому краю */
-    margin-left: 5%;  /* Добавляем отступ слева */
+    text-align: left;
+    margin-left: 40%;  /* Увеличиваем отступ слева */
 }
 
 /* Стиль для мифа */
 .myth {
-    font-style: italic; /* Курсив для мифа */
-    font-weight: bold;  /* Жирный шрифт */
+    font-style: italic;
+    font-weight: bold;
     margin-bottom: 5px;
-    font-size: 1.2em;   /* Увеличиваем шрифт */
+    font-size: 1.2em;
 }
 
 /* Стиль для правды */
 .truth {
-    font-size: 1em;     /* Увеличиваем шрифт */
-    line-height: 1.4;   /* Улучшенный интервал между строк */
+    font-size: 1em;
+    line-height: 1.4;
 }
 
 /* Увеличиваем основной шрифт */
