@@ -48,12 +48,11 @@ body {
 
 /* Контент */
 .content {
-    width: 70%;  /* Уменьшаем ширину контента */
+    width: 70%;
     margin: 20px auto;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* position: relative;  Удаляем относительное позиционирование */
 }
 
 /* Заголовок на странице */
@@ -102,10 +101,10 @@ body {
 /* Нижнее изображение */
 .bottom-right-image {
     position: fixed;
-    bottom: 0;
-    right: 0; /* Меняем left на right */
-    width: 30%;  /* Уменьшаем ширину изображения */
-    max-height: 15%; /* Уменьшаем высоту изображения */
+    bottom: 5px;
+    right: 5px;
+    width: 35%;
+    max-height: 20%;
     object-fit: contain;
     opacity: 0.7;
 }
