@@ -3,32 +3,32 @@ body {
 }
 
 .header {
-    position: relative; /* Для позиционирования верхнего изображения */
+    position: relative; /* Это важно! */
     height: 200px; /* Задайте высоту шапки для наглядности */
-    background-color: #eee; /*  Чтобы видеть границы */
+    background-color: #eee; /* Чтобы видеть границы */
 }
 
 .header .top-left-image {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    max-height: 80%;
-    object-fit: contain;
+    top: 0; /* Прижимаем к верху */
+    left: 0; /* Прижимаем к левому краю */
+    width: 30%; /* Ширина 30% от ширины header */
+    max-height: 80%; /* Высота не больше 80% от высоты header */
+    object-fit: contain; /* Чтобы картинка помещалась в контейнер */
 }
 
 .content {
-    position: relative; /* Для позиционирования нижнего изображения */
-    height: 400px; /*  Для наглядности */
+    position: relative; /* И это тоже! */
+    height: 400px; /* Для наглядности */
     background-color: #ccc;
 }
 
 .content .bottom-right-image {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 45%;
-    max-height: 50%;
-    object-fit: contain;
+    bottom: 0; /* Прижимаем к низу */
+    right: 0; /* Прижимаем к правому краю */
+    width: 45%; /* Ширина 45% от ширины content */
+    max-height: 50%; /* Высота не больше 50% от высоты content */
+    object-fit: contain; /* Чтобы картинка помещалась в контейнер */
     opacity: 0.7;
 }
