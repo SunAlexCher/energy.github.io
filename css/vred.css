@@ -43,7 +43,6 @@ body {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* position: relative;  Удаляем относительное позиционирование */
 }
 
 /* Заголовок на странице */
@@ -93,16 +92,16 @@ body {
 .bottom-right-image {
     position: fixed;
     bottom: 5px;
-    right: 0; /* Прижимаем к правому краю */
-    width: 42%; /* Увеличенная ширина изображения */
-    max-height: 27%; /*  Увеличенная максимальная высота */
+    right: 0;
+    width: 42%;
+    max-height: 27%;
     object-fit: contain;
     opacity: 0.7;
 }
 
-/* Специальные стили для заголовков */
-.content .section h3 {
-    font-size: 1.5em; /* Увеличенный размер */
-    font-weight: bold; /* Жирный шрифт */
+/* Специальные стили для заголовков секций */
+.content .section > h3 { /*  > - применяем стиль только к h3, которые являются прямыми потомками section */
+    font-size: 1.5em;
+    font-weight: bold;
     margin-bottom: 10px;
 }
