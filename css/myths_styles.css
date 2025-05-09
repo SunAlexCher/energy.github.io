@@ -96,29 +96,4 @@ body {
 /* Увеличиваем основной шрифт */
 body {
     font-size: 1.1em;
-}
-
-/* Класс для контейнера изображения */
-.parallel-image-container {
-    width: 45%; /* Ширина, как у myth-item */
-    display: inline-block; /* Размещение в строку */
-    vertical-align: top; /* Выравнивание по верху */
-    margin-bottom: 20px; /* Отступ снизу */
-    text-align: center; /* Центрирование изображения */
-}
-
-.parallel-image-container img {
-    max-width: 100%; /* Чтобы изображение не выходило за границы контейнера */
-    height: auto;
-}
-
-/* Дополнительные стили для выравнивания */
-.myth-image-row {
-    display: flex; /* Используем flexbox для выравнивания */
-    justify-content: space-between; /* Размещаем элементы по краям */
-    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
-}
-
-.myth-image-row .myth-item {
-    width: 48%; /* Немного уменьшаем ширину, чтобы учесть отступы */
-}
+} 
