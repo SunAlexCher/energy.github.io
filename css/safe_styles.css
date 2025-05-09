@@ -1,0 +1,81 @@
+/* Общие стили */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Шапка */
+.header {
+    background-color: #191970;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Кнопка "Вернуться на главную" */
+.back-button {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Контент */
+.content {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок на странице */
+.content h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Секции */
+.content .section {
+    margin-bottom: 20px;
+}
+
+/* Списки */
+.content ul {
+    list-style-type: disc; /* Маркированный список */
+    padding-left: 20px;
+}
+
+/* Элементы списка */
+.content li {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Стиль для абзацев */
+.content p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+/* Заголовок альтернативы */
+.content h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
