@@ -119,7 +119,16 @@ body {
     align-items: flex-start; /* Выравниваем элементы по верхнему краю */
 }
 
-.myth-image-row .myth-item,
-.myth-image-row .parallel-image-container {
+.myth-image-row .myth-item {
     width: 48%; /* Немного уменьшаем ширину, чтобы учесть отступы */
+}
+
+/* Сдвигаем первое изображение */
+.image-shift-up {
+    margin-top: -50px; /* Отрицательный отступ */
+}
+
+/* Сдвигаем второе изображение */
+.image-shift-down {
+    margin-top: 150px; /* Положительный отступ */
 }
