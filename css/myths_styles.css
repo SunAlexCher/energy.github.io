@@ -97,3 +97,15 @@ body {
 body {
     font-size: 1.1em;
 }
+
+/* Стили для изображений под мифами */
+.myth-image-container {
+    width: 100%;
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.myth-image-container img {
+    max-width: 60%; /* Максимальная ширина изображения */
+    height: auto; /* Автоматическая высота */
+}
