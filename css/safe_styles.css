@@ -1,10 +1,10 @@
 /* Общие стили */
 body {
     font-family: sans-serif;
-    margin: 0; /* Убираем margin по умолчанию */
+    margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    height: 100vh; /* Занимает всю высоту экрана */
+    /* height: 100vh;  Убираем фиксированную высоту */
 }
 
 /* Шапка */
@@ -54,7 +54,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative; /* Для позиционирования нижнего изображения */
-    min-height: calc(100vh - 40px); /*  Высота минимум на весь экран, учитываем отступы сверху и снизу */
+    /* padding-bottom: 40%;  Убираем отступ снизу */
 }
 
 /* Заголовок на странице */
@@ -104,11 +104,11 @@ body {
 
 /* Нижнее изображение */
 .content .bottom-right-image {
-    position: absolute;
+    position: absolute; /* Возвращаем абсолютное позиционирование */
     bottom: 0; /* Прижимаем к низу */
     right: 0; /* Прижимаем к правому краю (до конца страницы) */
     width: 40%;
-    max-height: 40%;
+    max-height: 30%; /* Уменьшаем высоту изображения */
     object-fit: contain;
     opacity: 0.7;
 }
